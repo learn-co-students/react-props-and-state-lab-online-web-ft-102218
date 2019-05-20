@@ -100,6 +100,7 @@ describe('<Pet />', () => {
           wrapper.find('button.ui.disabled.button').length === 1 &&
             wrapper.find('button.ui.primary.button').length === 0
         ).to.be.true;
+        debugger
       });
 
       it('should not call the `onAdoptPet` callback prop when the button is clicked', () => {
